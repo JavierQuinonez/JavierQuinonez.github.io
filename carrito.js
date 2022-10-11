@@ -92,7 +92,7 @@ const pintarCarrito = () => {
 
     pintarFooter()
 
-    localStorage.setItem('carrito', JSON.stringify(carrito))
+    
 }
 const pintarFooter = () => {
     footer.innerHTML = ''
